@@ -10,11 +10,11 @@ const RestaurantSchema = new mongoose.Schema({
     foods:{
         type:Array,default: []},
     pickup:{
-        type:String,Boolean:true},
+        type:String,default:true},
     delivery:{
-        type:Boolean,required:true},
+        type:Boolean,default:true},
     isAvailable:{
-        type:Boolean,required:true},
+        type:Boolean,default:true},
     owner:{
         type:String,required:true},
     code:{
