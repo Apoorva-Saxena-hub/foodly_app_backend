@@ -37,7 +37,7 @@ const RestaurantSchema = new mongoose.Schema({
         latitudeDelta: {type:Number, default: 0.0122},
         longitudeDelta: {type:Number, default: 0.0122},
         address:{ type:String,required: true},
-        title: {type: string, required:true},
+        title: {type: String, required:true},
     }
 });
 
